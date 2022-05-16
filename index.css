@@ -1,0 +1,19 @@
+:root {
+    --ligh-white: #FAFAFA;
+    --red: #EA5454;
+    --cyan: #44D3D2;
+    --yellow: #FCAE4A;
+    --blue: #549EF2;
+    --black: #4D4F62
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--ligh-white);
+    height: 100vh;
+}
