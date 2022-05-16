@@ -36,7 +36,6 @@ main {
 }
 
 .header {
-
     font-weight: 275;
     font-size: 36px;
     line-height: 54px;
@@ -67,7 +66,7 @@ main {
     margin-bottom: 64px;
 }
 
-.bottom-container{
+.bottom-container {
     display: flex;
     width: 1110px;
     height: 530px;
@@ -108,14 +107,14 @@ main {
     margin-bottom: 40px;
 }
 
-.card-img{
+.card-img {
     width: 64px;
     height: 64px;
     justify-self: flex-end;
     align-self: flex-end;
 }
 
-.middle{
+.middle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,15 +122,79 @@ main {
     gap: 30px;
 }
 
-.cyan{
+.cyan {
     border-top: 4px solid var(--cyan);
 }
-.red{
+
+.red {
     border-top: 4px solid var(--red);
 }
-.blue{
+
+.blue {
     border-top: 4px solid var(--blue);
 }
-.yellow{
+
+.yellow {
     border-top: 4px solid var(--yellow);
+}
+
+
+@media (max-width:375px) {
+
+    main {
+        padding-top: 85px;
+    }
+
+    .header-container {
+        max-width: 311px;
+    }
+
+    .header {
+        font-weight: 275;
+        font-weight: 275;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.166667px;
+    }
+
+    .header-subtitle {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.166667px;
+        margin-bottom: 16px;
+    }
+
+    .header-pharapgrah {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        text-align: center;
+        letter-spacing: 0.104167px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-bottom: 76px;
+    }
+
+
+    .bottom-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-container {
+      max-width: 311px;
+      padding: 29px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+
 }
