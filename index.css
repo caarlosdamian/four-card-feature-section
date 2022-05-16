@@ -11,9 +11,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 
-body{
+body {
     background: var(--ligh-white);
     height: 100vh;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    color: var(--black);
+}
+
+.header-subtitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: var(--black);
+
+}
+
+.header-pharapgrah {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: var(--black);
+    mix-blend-mode: normal;
+    opacity: 0.5;
 }
